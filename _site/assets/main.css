@@ -770,7 +770,7 @@ footer {
 
 .navbar {
   top: 0;
-  position: relative;
+  position: fixed;
   width: 100%;
 }
 
@@ -824,3 +824,8 @@ footer {
 }
 } 
 */
+
+::selection {
+  background: rgb(0, 255, 64);
+  color: rgb(0, 0, 0);
+}
