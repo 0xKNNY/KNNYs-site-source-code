@@ -800,7 +800,7 @@ footer {
   display:flex;
   max-width: 900px;
 }
-
+ 
 
 @media (min-width: 900px) { .contact {
   height: fit-content;
@@ -829,3 +829,30 @@ footer {
   background: rgb(0, 255, 64);
   color: rgb(0, 0, 0);
 }
+
+/*
+.row {
+  flex-direction: column;
+  display:flex;
+  max-width: 100%;
+  gap: 1em;
+  margin:0px;
+}
+ 
+
+@media (min-width: 900px) { .row {
+  height: fit-content;
+  flex-direction: row;
+
+}
+}
+
+@media (min-width: 900px) { .column {
+  width:fit-content;
+}
+}
+
+.column {
+  width:100%;
+}
+*/
