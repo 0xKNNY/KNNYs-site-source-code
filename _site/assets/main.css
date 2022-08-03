@@ -582,13 +582,13 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .border {
   border-color: #86d0b053;
-  border-width: .5px;
+  border-width: 1px;
   border-style: solid;
 }
 
 a :hover {
   border-color: #44f1a6;
-  border-width: .5px;
+  border-width: 1px;
   color: #44f1a6;
 }
 
@@ -793,7 +793,7 @@ footer {
 }
 
 .grey {
-  color: #86d0b053;
+  color: #94d8bb53;
 }
 
 .contact {
@@ -835,7 +835,11 @@ footer {
   background-color: #44f1a6;
 }
 
-
+.border2 {
+  border-color: #44f1a6;
+  border-style: solid;
+  border-width: 1px;
+}
 
 /*
 .row {
