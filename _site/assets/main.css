@@ -16,7 +16,7 @@
 }
 
 .background {
-  background-color: rgb(12,12,12);
+  background-color: rgb(8,8,8);
 }
 ::before,
 ::after {
@@ -79,7 +79,8 @@ Remove the default font size and weight for headings.
 */
 
 h1 {
-  font-size: xxx-large
+  font-size: xxx-large;
+  background: none;
 }
 
 h2 {
@@ -495,7 +496,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-bottom: calc(2rem * var(--tw-space-y-reverse));
 }
 .rounded {
-  border-radius: 11px;
+  border-radius: 6px;
 }
 
 .bg-black {
@@ -580,19 +581,19 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .border {
-  border-color: #373737;
-  border-width: 1px;
+  border-color: #86d0b053;
+  border-width: .5px;
   border-style: solid;
 }
 
 a :hover {
-  border-color: rgb(255, 255, 255);
-  border-width: 1px;
-  color: white;
+  border-color: #44f1a6;
+  border-width: .5px;
+  color: #44f1a6;
 }
 
 .grey :hover {
-  color: white;
+  color: #44f1a6;
 }
 
 
@@ -603,8 +604,8 @@ a :hover {
 }
 
 .border-b {
-  border-color: #373737;
-  border-bottom-width: 1px;
+  border-color: #86d0b053;
+  border-bottom-width: .5px;
   border-bottom-style: solid;
 }
 
@@ -788,11 +789,11 @@ footer {
 }
 
 .text-color {
-  color: #ffffff;
+  color: #44f1a6
 }
 
 .grey {
-  color: rgb(92, 92, 92);
+  color: #86d0b053;
 }
 
 .contact {
@@ -826,9 +827,15 @@ footer {
 */
 
 ::selection {
-  background: rgb(0, 255, 64);
+  background:  #44f1a6;
   color: rgb(0, 0, 0);
 }
+
+.text-background {
+  background-color: #44f1a6;
+}
+
+
 
 /*
 .row {

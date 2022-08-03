@@ -44,8 +44,8 @@
       <div class="wrapper terminal-width rounded" style="background-color: transparent;" style="position: relative">
         <div class="row">
           <div class="margin-nav">
-            <div class="flex-wrap"><h1 class="text-color">Gallery <button id='btn' class='myButton'>🖼</button></h1>
-              <p>[click the picture frame]</p></div>
+            <div class="flex-wrap"><h1 class="text-color">Gallery <button id='btn' class='myButton'>☾</button></h1>
+              <p class="text-color">[click the moon]</p></div>
               <br>
             <p class="grey">This is where I post random artworks that I've done over time. Some of these are unminted, so if you can't find the artwork on the blockchain and would like to purchase a piece, message me via Twitter or email me. </p>
             </div>
@@ -103,8 +103,8 @@
 var text = document.getElementById("face");
 var button = document.getElementById('btn');
 var fsize = document.getElementById("fsize");
-text.value = "🖼";
-fsize.value = "40";
+text.value = "☾";
+fsize.value = "60";
 //emoji object
   function emoji(face, startx, starty, flour, fs, flyUpMax) {
     this.isAlive = true;
@@ -119,7 +119,7 @@ fsize.value = "40";
     this.element.innerHTML = face;
     this.element.style.position = "absolute";
     this.element.style.fontSize = fs + "px";
-    this.element.style.color = "white";
+    this.element.style.color = "#44f1a6";
     document.getElementById("fa").appendChild(this.element);
 
     this.refresh = function(){

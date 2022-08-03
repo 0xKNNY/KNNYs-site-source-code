@@ -3,8 +3,9 @@ var flyingMen = [];
 var text = document.getElementById("face");
 var button = document.getElementById('btn');
 var fsize = document.getElementById("fsize");
-text.value = "💎";
-fsize.value = "40";
+text.value = "✧";
+text.color = "#86d0b053";
+fsize.value = "60";
 //emoji object
   function emoji(face, startx, starty, flour, fs, flyUpMax) {
     this.isAlive = true;
@@ -19,7 +20,7 @@ fsize.value = "40";
     this.element.innerHTML = face;
     this.element.style.position = "absolute";
     this.element.style.fontSize = fs + "px";
-    this.element.style.color = "white";
+    this.element.style.color = "#44f1a6";
     document.getElementById("fa").appendChild(this.element);
 
     this.refresh = function(){

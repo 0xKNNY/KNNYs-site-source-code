@@ -48,10 +48,10 @@
 
     <div class="row terminal-width">
       <div  class="margin-nav">
-        <div class="flex-wrap"><h1 class="text-color">Other Stores <button id='btn' class='myButton'>🗺</button></h1>
-          <p>[click the map]</p>
+        <div class="flex-wrap"><h1 class="text-color">Other Stores <button id='btn' class='myButton'>☀︎</button></h1>
+          <p class="text-color">[click the sun]</p>
           <br>
-        <div class="flex"><p class="grey">These are all the other NFT art stores that I have. I used to mint my artwork on MakersPlace, but I've since launched to my own contract and marketplace in order to become more decentralized. If you're looking for my decentralized marketplace running on the Reservoir Protocol, you can click to find it here: <a href="https://store.knny.io"><span>—> store.knny.io</span></a></p></div>
+        <div class="flex"><p class="grey">These are all the other NFT art stores that I have. I used to mint my artwork on MakersPlace, but I've since launched to my own contract and marketplace in order to become more decentralized. If you're looking for my decentralized marketplace running on the Reservoir Protocol, you can click to find it here: <a href="https://store.knny.io"><span class="text-color">—> store.knny.io</span></a></p></div>
         </div>
         </div>
       </div>
@@ -73,12 +73,12 @@
 
         
         <!--stores-->
-          <a href="https://makersplace.com/knny" rel="history">                                                         <h3 class="border px-5 py-3 rounded margin-top margin-bottom"> <span class="grey">></span> makersplace              </h3></a>
-          <a href="https://opensea.io/collection/superliminal" rel="history">                                           <h3 class="border px-5 py-3 rounded margin-top margin-bottom">     <span class="grey">></span> superliminal / opensea    </h3></a>
-          <a href="https://opensea.io/collection/subliminal" rel="history">                                             <h3 class="border px-5 py-3 rounded margin-top margin-bottom">     <span class="grey">></span> subliminal / opensea      </h3></a>
-          <a href="https://knownorigin.io/kenny" rel="history">                                                         <h3 class="border px-5 py-3 rounded margin-top margin-bottom">     <span class="grey">></span> knownorigin               </h3></a>
-          <a href="https://foundation.app/knny" rel="history">                                                          <h3 class="border px-5 py-3 rounded margin-top margin-bottom">     <span class="grey">></span> foundation                </h3></a>
-          <a href="https://makersplace.com/knny/white-flowers-poetry-book-by-kenny-flaten-1-of-1-69658/" rel="history"> <h3 class="border px-5 py-3 rounded margin-top margin-bottom">     <span class="grey">></span> white flowers / book      </h3></a>
+          <a href="https://makersplace.com/knny" rel="history">                                                         <h3 class="text-color border px-5 py-3 rounded margin-top margin-bottom"> <span class="grey">></span> makersplace              </h3></a>
+          <a href="https://opensea.io/collection/superliminal" rel="history">                                           <h3 class="text-color border px-5 py-3 rounded margin-top margin-bottom">     <span class="grey">></span> superliminal / opensea    </h3></a>
+          <a href="https://opensea.io/collection/subliminal" rel="history">                                             <h3 class="text-color border px-5 py-3 rounded margin-top margin-bottom">     <span class="grey">></span> subliminal / opensea      </h3></a>
+          <a href="https://knownorigin.io/kenny" rel="history">                                                         <h3 class="text-color border px-5 py-3 rounded margin-top margin-bottom">     <span class="grey">></span> knownorigin               </h3></a>
+          <a href="https://foundation.app/knny" rel="history">                                                          <h3 class="text-color border px-5 py-3 rounded margin-top margin-bottom">     <span class="grey">></span> foundation                </h3></a>
+          <a href="https://makersplace.com/knny/white-flowers-poetry-book-by-kenny-flaten-1-of-1-69658/" rel="history"> <h3 class="text-color border px-5 py-3 rounded margin-top margin-bottom">     <span class="grey">></span> white flowers / book      </h3></a>
         <!--stores-->
 
 
@@ -139,8 +139,8 @@
 var text = document.getElementById("face");
 var button = document.getElementById('btn');
 var fsize = document.getElementById("fsize");
-text.value = "🗺";
-fsize.value = "40";
+text.value = "☀︎";
+fsize.value = "60";
 //emoji object
   function emoji(face, startx, starty, flour, fs, flyUpMax) {
     this.isAlive = true;
@@ -155,7 +155,7 @@ fsize.value = "40";
     this.element.innerHTML = face;
     this.element.style.position = "absolute";
     this.element.style.fontSize = fs + "px";
-    this.element.style.color = "white";
+    this.element.style.color = "#44f1a6";
     document.getElementById("fa").appendChild(this.element);
 
     this.refresh = function(){
