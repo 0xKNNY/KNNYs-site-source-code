@@ -10,7 +10,7 @@
 ::after {
   box-sizing: border-box; /* 1 */
   border-color: #e5e7eb; /* 2 */
-  background-color: #121212;
+  background-color: #090c0b;
   font-family: 'IBM Plex Mono';
   color: rgb(255, 255, 255);
 }
