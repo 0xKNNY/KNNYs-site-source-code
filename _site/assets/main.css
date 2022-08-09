@@ -841,6 +841,22 @@ footer {
   border-width: 1px;
 }
 
+
+.announcement {
+  color: #ffffff;
+}
+
+.announcement-border {
+  border-color: #94d8bb53;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.border-left {
+  border-left-color: #94d8bb53;
+  border-left-style: solid;
+  border-left-width: 1px;
+}
 /*
 .row {
   flex-direction: column;
