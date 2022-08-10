@@ -587,13 +587,13 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 a :hover {
-  border-color: #44f1a6;
+  border-color: #48ffb0;
   border-width: 1px;
-  color: #44f1a6;
+  color: #48ffb0;
 }
 
 .grey :hover {
-  color: #44f1a6;
+  color: #48ffb0;
 }
 
 
@@ -789,7 +789,7 @@ footer {
 }
 
 .text-color {
-  color: #44f1a6
+  color: #48ffb0;
 }
 
 .grey {
@@ -827,16 +827,16 @@ footer {
 */
 
 ::selection {
-  background:  #44f1a6;
+  background:  #48ffb0;
   color: rgb(0, 0, 0);
 }
 
 .text-background {
-  background-color: #44f1a6;
+  background-color: #48ffb0;
 }
 
 .border2 {
-  border-color: #44f1a6;
+  border-color: #48ffb0;
   border-style: solid;
   border-width: 1px;
 }

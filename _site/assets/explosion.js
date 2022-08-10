@@ -3,7 +3,7 @@ var flyingMen = [];
 var text = document.getElementById("face");
 var button = document.getElementById('btn');
 var fsize = document.getElementById("fsize");
-text.value = "✦";
+text.value = "✴︎";
 text.color = "#86d0b053";
 fsize.value = "60";
 //emoji object
