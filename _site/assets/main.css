@@ -508,7 +508,7 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(37 99 235 / var(--tw-bg-opacity));
 }
 .p-12 {
-  padding: 3rem;
+  padding: 1em;
 }
 .px-5 {
   padding-left: 1.25rem;
