@@ -5,13 +5,14 @@
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
 */
 
+
 *,
 ::before,
 ::after {
   box-sizing: border-box; /* 1 */
   border-color: #e5e7eb; /* 2 */
   background-color: #090c0b;
-  font-family: 'IBM Plex Mono';
+  font-family: 'IBM Plex Mono', 'Space Mono', monospace;
   color: rgb(255, 255, 255);
 }
 
@@ -397,7 +398,6 @@ object {
   display: block; /* 1 */
   vertical-align: middle; /* 2 */
 }
-
 /*
 Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
 */
@@ -405,6 +405,7 @@ Constrain images and videos to the parent width and preserve their intrinsic asp
 img,
 video {
   max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
