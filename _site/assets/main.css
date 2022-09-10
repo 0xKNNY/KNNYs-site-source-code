@@ -744,9 +744,13 @@ br {
   line-height: px;
 }
 
+
+/*
 .margin-top {
   margin-top: 1em;
 }
+*/
+
 
 .margin-bottom {
   margin-bottom: 1em;
@@ -858,13 +862,13 @@ footer {
   border-left-style: solid;
   border-left-width: 1px;
 }
-/*
+
 .row {
   flex-direction: column;
   display:flex;
   max-width: 100%;
-  gap: 1em;
   margin:0px;
+  gap: 1.5em
 }
  
 
@@ -883,4 +887,3 @@ footer {
 .column {
   width:100%;
 }
-*/
