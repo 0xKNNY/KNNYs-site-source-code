@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>wojak</title>
+    <title>memes</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
      <link rel="stylesheet" type="text/css" href="/assets/main.css" />
      <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,49 +35,13 @@
           <!--dock-->
 
           
-   <main class="fullpage items-center">
+   <main style="height: 100%;" class="items-center">
 
 
-
-    <!--terminal-->
-    <div class="pagepadding fullpage">
-      <div class="wrapper terminal-width rounded" style="position: relative">
-       <div class="p-terminal rounded-terminal"></div>
-       <div class="margin-nav">
-         
-
-
-
-
-
-
-        
         <!--stores-->
-          <div><img class="wojak" src="/img/wojak.gif"></div>
-        <!--stores-->
+        <div style="height:100%; border: 0px;"><iframe src="https://www.memeatlas.com/index.html" width="100%" height="100%" style="border:0px"></iframe></div>
+          <!--stores-->
 
-
-
-
-
-
-
-
-
-
-
-
-        </div>
-      </div>
-
-
-        <!--draggable javascript-->
-        <script>
-          const wrapper=document.querySelector(".wrapper"),header=wrapper.querySelector("header");function onDrag({movementX:e,movementY:r}){let t=window.getComputedStyle(wrapper),a=parseInt(t.left),o=parseInt(t.top);wrapper.style.left=`${a+e}px`,wrapper.style.top=`${o+r}px`}header.addEventListener("mousedown",()=>{header.classList.add("active"),header.addEventListener("mousemove",onDrag)}),document.addEventListener("mouseup",()=>{header.classList.remove("active"),header.removeEventListener("mousemove",onDrag)});
-        </script>
-        <!--draggable javascript-->
-      </div>
-        <!--end of terminal-->
    </main>
   </body>
 </html>
