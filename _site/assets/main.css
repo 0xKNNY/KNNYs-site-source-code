@@ -591,6 +591,8 @@ a :hover {
   border-color: #48ffb0;
   border-width: 1px;
   color: #48ffb0;
+  text-shadow: 0 0 20px #00ff918e, 0 0 60px #00ff918e, 0 0 7px #00ff9160;
+
 }
 
 .grey :hover {
@@ -638,8 +640,6 @@ a :hover {
 }
 .terminal-width{
   max-width: 800px;
-  margin-left: auto;
-  margin-right: auto;
   margin-top: 0;
   margin-bottom:0;
 
@@ -795,6 +795,8 @@ footer {
 
 .text-color {
   color: #48ffb0;
+  text-shadow: 0 0 20px #00ff916d, 0 0 60px #00ff916f, 0 0 7px #00ff914a;
+
 }
 
 .grey {
