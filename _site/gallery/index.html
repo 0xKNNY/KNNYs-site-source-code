@@ -13,7 +13,6 @@
       
   </head>
   <body class="">
-    <div style="position: fixed;" id='fa'></div>
 
      <!--navbar-->
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
@@ -39,154 +38,54 @@
     
 <main class="">
 
-
-
     <!--terminal-->
     <div class="pagepadding fullpage">
-      <div class="wrapper terminal-width rounded" style="background-color: transparent;" style="position: relative">
+      <div class="wrapper rounded" style="background-color: transparent;" style="position: relative">
         <div class="row">
-          <div class="">
+          <div class="column1">
             <div class="flex-wrap"><h1 class="text-color">Gallery </h1>
             </div>
               <br>
             <p class="grey">This is where I post random artworks that I've done over time. Some of these are unminted, so if you can't find the artwork on the blockchain and would like to purchase a piece, message me via Twitter or email me. </p>
             </div>
+            <br>
+            <div class="column grid">
+              <div class="flex-wrap">
+
+                <div class="row">
+                <div class="grid1">
+                <video controls autoplay class="img50 rounded border" src="https://sro5osrvqi3dhjftxwdrlhnl2nyppndsy7yqvbb2ahkhbub7q5eq.arweave.net/lF3XSjWCNjOks72HFZ2r03D3tHLH8QqEOgHUcNA_h0k"></video>
+                <video controls autoplay class="img50 rounded border" src="/img/11.mp4"></video>
+                <img class="img50 rounded border" src="/img/8.png">
+                <img class="img50 rounded border" src="/img/18.png">
+                <img class="img50 rounded border" src="/img/9.jpg">
+                <img class="img50 rounded border" src="/img/15.gif">
+                <video controls autoplay loop class="img50 rounded border" src="https://arweave.net/ihcVkuWKMqWfzWdRmvX3RMkJVkKgfplF0JLx_fTEQLc"></video>
+                <img class="img50 rounded border" src="/img/3.png">
+                <img class="img50 rounded border" src="https://arweave.net/UN5l-awHuc2lA7CegCKVYgcZ5fjPL3SHKJLXtAxNjD8">
+
+
+              </div>
+              <div class="grid2">
+                  <img class="img50 rounded border" src="/img/carradio.jpeg">
+                  <img class="img50 rounded border" src="/img/10.gif">
+                  <img class="img50 rounded border" src="/img/12.png">
+                  <img class="img50 rounded border" src="/img/13.jpeg">
+                  <img class="img50 rounded border" src="/img/14.png">
+                  <img class="img50 rounded border" src="/img/16.png">
+                  <img class="img50 rounded border" src="/img/2.gif">
+                  <img class="img50 rounded border" src="/img/5.png">
+                  <img class="img50 rounded border" src="/img/7.png">
+
+
+                </div>
+                </div>
+                </div>
+            </div>
           </div>
-          <br>
-       <div class="p-terminal rounded-terminal"></div>
-       <div class="flex-wrap">
-
-        <video controls autoplay class="img50 rounded border" src="https://sro5osrvqi3dhjftxwdrlhnl2nyppndsy7yqvbb2ahkhbub7q5eq.arweave.net/lF3XSjWCNjOks72HFZ2r03D3tHLH8QqEOgHUcNA_h0k"></video>
-        <br>
-        <img class="img50 rounded border" src="/img/carradio.jpeg">
-        <br>
-        <video controls autoplay class="img50 rounded border" src="/img/19.mp4"></video>
-        <br>
-        <img class="img50 rounded border" src="/img/10.gif">
-        <br>
-        <video controls autoplay class="img50 rounded border" src="/img/11.mp4"></video>
-        <br>
-        <img class="img50 rounded border" src="/img/8.png">
-        <br>
-        <img class="img50 rounded border" src="/img/12.png">
-        <br>
-        <img class="img50 rounded border" src="/img/18.png">
-        <br>
-        <img class="img50 rounded border" src="/img/13.jpeg">
-        <br>
-        <img class="img50 rounded border" src="/img/9.jpg">
-        <br>
-        <img class="img50 rounded border" src="/img/14.png">
-        <br>
-        <img class="img50 rounded border" src="/img/15.gif">
-        <br>
-        <img class="img50 rounded border" src="/img/16.png">
-        <br>
-        <video controls autoplay loop class="img50 rounded border" src="https://arweave.net/ihcVkuWKMqWfzWdRmvX3RMkJVkKgfplF0JLx_fTEQLc"></video>
-        <br>
-        <img class="img50 rounded border" src="/img/2.gif">
-        <br>
-        <img class="img50 rounded border" src="/img/3.png">
-        <br>
-        <img class="img50 rounded border" src="/img/5.png">
-        <br>
-        <img class="img50 rounded border" src="https://arweave.net/UN5l-awHuc2lA7CegCKVYgcZ5fjPL3SHKJLXtAxNjD8">
-        <br>
-        <img class="img50 rounded border" src="/img/7.png">
-
-        </div>
         </div>
       </div>
         <!--end of terminal-->
-
-        <p style="background-color: transparent; color: transparent" id='face'>🖼</p>
-        <p style="background-color: transparent; color: transparent" id='fsize'>40</p>
-        <script>
-          var flyingMen = [];
-
-var text = document.getElementById("face");
-var button = document.getElementById('btn');
-var fsize = document.getElementById("fsize");
-text.value = "☾";
-fsize.value = "60";
-//emoji object
-  function emoji(face, startx, starty, flour, fs, flyUpMax) {
-    this.isAlive = true;
-    this.face = face;
-    this.x = startx;
-    this.y = starty;
-    this.flourLevel = flour;
-    this.increment = -Math.floor((Math.random()*flyUpMax)+10);
-    this.xincrement = Math.floor((Math.random()*10)+1);
-    this.xincrement *= Math.floor(Math.random()*2) == 1 ? 1 : -1;
-    this.element = document.createElement('div');
-    this.element.innerHTML = face;
-    this.element.style.position = "absolute";
-    this.element.style.fontSize = fs + "px";
-    this.element.style.color = "#44f1a6";
-    document.getElementById("fa").appendChild(this.element);
-
-    this.refresh = function(){
-      if (this.isAlive) {
-        //------Y axis-----
-        
-        
-        
-        
-        this.y += this.increment;
-        this.x += this.xincrement;
-        this.increment += .75;
-        
-        if (this.y >= this.flourLevel) {
-          if (this.increment <=1) {
-            this.isAlive = false;
-          }
-         this.increment = 15;
-        }
-        
-        this.element.style.transform = "translate(" + this.x + "px, " + this.y + "px)";
-      } else {
-        this.element.style.transform = "translate(px, px)";
-      }
-    }
-    
-  }
-
-
-
-button.addEventListener("click", goB);
-
-
-function goB() {
-  var fontsize = fsize.value;
-  var xv = (button.getBoundingClientRect().left + button.clientWidth/2) - (fontsize/2);
-  var yv = (button.getBoundingClientRect().top + button.clientHeight/2) - (fontsize/2);
-  var fl = button.getBoundingClientRect().top + 10000;
-  var face = text.value;
-  for (var i = 0; i < 8; i++) {
-    var coolGuy = new emoji(face, xv, yv, fl, fontsize, 12);
-    flyingMen.push(coolGuy);
-  }
-
-}
-
-
-
-//Rendering
-function render() {
-  for (var i = 0; i < flyingMen.length; i++) {
-    if (flyingMen[i].isAlive == true) {
-      flyingMen[i].refresh();
-    } else {
-      flyingMen[i].element.remove();
-      flyingMen.splice(i, 1);
-    }
-  }
-  requestAnimationFrame(render);
-}
-
-render();
-        </script>
    </main>
   </body>
 </html>

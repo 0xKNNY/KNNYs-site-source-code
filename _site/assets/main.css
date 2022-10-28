@@ -879,7 +879,7 @@ footer {
   display:flex;
   max-width: 100%;
   margin:0px;
-  gap: 1.5em
+  gap: 1.5em;
 }
  
 
@@ -890,12 +890,35 @@ footer {
 }
 }
 
-@media (min-width: 900px) { .column {
+@media (min-width: 900px) { .column1 {
   width:fit-content;
 }
 }
 
-.column {
+.column1 {
   width:100%;
 }
 
+.column2 {
+  width:100%;
+}
+
+.grid1 {
+  width: 50%;
+  
+}
+
+.grid2 {
+  width: 50%;
+
+}
+
+@media (min-width: 0px) { .grid1 {
+  width:fit-content;
+}
+}
+
+@media (min-width: 0px) { .grid2 {
+  width:fit-content;
+}
+}
