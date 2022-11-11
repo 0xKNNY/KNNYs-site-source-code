@@ -592,6 +592,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 a :hover {
   border-color: #48ffb0;
   border-width: 1px;
+  background-color: black;
   color: #48ffb0;
   text-shadow: 0 0 20px #00ff918e, 0 0 60px #00ff918e, 0 0 7px #00ff9160;
 
@@ -847,7 +848,11 @@ footer {
 }
 
 .button-background {
-  background-color: transparent;
+  background-color:  #48ffb0;
+}
+
+.button-text {
+  color: black;
 }
 
 .border2 {
