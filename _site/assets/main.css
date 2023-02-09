@@ -11,7 +11,7 @@
 ::after {
   box-sizing: border-box; /* 1 */
   border-color: #e5e7eb; /* 2 */
-  background-color: #090c0b;
+  background-color: rgb(16, 16, 16);
   font-family: 'IBM Plex Mono', 'Space Mono', monospace;
   color: rgb(255, 255, 255);
 }
@@ -584,22 +584,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .border {
-  border-color: #86d0b053;
+  border-color: #d0d0d053;
   border-width: 1px;
   border-style: solid;
 }
 
 a :hover {
-  border-color: #48ffb0;
+  border-color: #ffffff;
   border-width: 1px;
   background-color: black;
-  color: #48ffb0;
-  text-shadow: 0 0 20px #00ff918e, 0 0 60px #00ff918e, 0 0 7px #00ff9160;
+  color: #ffffff;
+  text-shadow: 0 0 20px #ffffff8e, 0 0 60px #ffffff8e, 0 0 7px #ffffff60;
 
 }
 
 .grey :hover {
-  color: #48ffb0;
+  color: #ffffff;
 }
 
 
@@ -610,7 +610,7 @@ a :hover {
 }
 
 .border-b {
-  border-color: #86d0b053;
+  border-color: #d5d5d553;
   border-bottom-width: .5px;
   border-bottom-style: solid;
 }
@@ -797,8 +797,8 @@ footer {
 }
 
 .text-color {
-  color: #48ffb0;
-  text-shadow: 0 0 20px #00ff916d, 0 0 60px #00ff916f, 0 0 7px #00ff914a;
+  color: #ffffff;
+  text-shadow: 0 0 20px #ffffff6d, 0 0 60px #ffffff6f, 0 0 7px #ffffff4a;
 
 }
 
@@ -809,7 +809,7 @@ footer {
 }
 
 .grey {
-  color: #94d8bb53;
+  color: #d4d4d453;
 }
 
 .contact {
@@ -843,12 +843,12 @@ footer {
 */
 
 ::selection {
-  background:  #48ffb0;
+  background:  #ffffff;
   color: rgb(0, 0, 0);
 }
 
 .button-background {
-  background-color:  #48ffb0;
+  background-color:  #ffffff;
 }
 
 .button-text {
@@ -856,7 +856,7 @@ footer {
 }
 
 .border2 {
-  border-color: #48ffb0;
+  border-color: #ffffff;
   border-style: solid;
   border-width: 1px;
   border-radius: 8px;
