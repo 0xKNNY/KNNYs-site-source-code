@@ -592,7 +592,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 a :hover {
   border-color: #ffffff;
   border-width: 1px;
-  background-color: black;
+  background-color: transparent;
   color: #ffffff;
   text-shadow: 0 0 20px #ffffff8e, 0 0 60px #ffffff8e, 0 0 7px #ffffff60;
 
