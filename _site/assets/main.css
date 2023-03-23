@@ -11,7 +11,7 @@
 ::after {
   box-sizing: border-box; /* 1 */
   border-color: #e5e7eb; /* 2 */
-  background-color: rgb(16, 16, 16);
+  background-color: black;
   font-family: 'IBM Plex Mono', 'Space Mono', monospace;
   color: rgb(255, 255, 255);
 }
