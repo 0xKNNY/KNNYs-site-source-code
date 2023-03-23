@@ -593,8 +593,6 @@ a :hover {
   border-color: #ffffff;
   border-width: 1px;
   background-color: transparent;
-  color: #ffffff;
-  text-shadow: 0 0 20px #ffffff8e, 0 0 60px #ffffff8e, 0 0 7px #ffffff60;
 
 }
 
@@ -798,8 +796,6 @@ footer {
 
 .text-color {
   color: #ffffff;
-  text-shadow: 0 0 20px #ffffff6d, 0 0 60px #ffffff6f, 0 0 7px #ffffff4a;
-
 }
 
 .text-color-2 {
